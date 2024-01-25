@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Collections;// Comparable interface
 public class Main {
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Main {
         peopleList.add(new Employee("Thor", "ThunderGod", "Hero", 500000.00));
         peopleList.add(new Employee("Kayrat", "Nurtas", "Singer", 1200000.00));
 
-        // Sort the list based on payment amount using Bubble Sort
+        // Sort the list based on payment amount using Collections.sort
         Collections.sort(peopleList);
 
         // Print the data

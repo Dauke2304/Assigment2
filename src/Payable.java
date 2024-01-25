@@ -1,3 +1,3 @@
 public interface Payable {
-    double getPaymentAmount();
+    double getPaymentAmount();//method aviable to class Person and it,s subclasses
 }

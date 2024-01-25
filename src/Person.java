@@ -21,7 +21,7 @@ public class Person implements Payable,  Comparable<Person> {//Person is a super
         return 0.0;
     }
     @Override
-    public int compareTo(Person person) {
+    public int compareTo(Person person) {//comparing the payment if first greater returns positive, if equal zero, if less negative
         return Double.compare(this.getPaymentAmount(), person.getPaymentAmount());
     }
     public int getId() {
